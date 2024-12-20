@@ -1,0 +1,6 @@
+select#dropdown {
+    appearance: none; 
+}
+.hero-section{
+    background: linear-gradient(to bottom, #097980 50%, white  50%);
+  }
