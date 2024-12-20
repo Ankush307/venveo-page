@@ -48,6 +48,14 @@ const Header = () => {
             <div className="max-lg:hidden">
               <SearchIcon />
             </div>
+            <div className="lg:hidden">
+              <form action="">
+                <div className="flex bg-[#E8E8E8] py-[21px] px-10 ">
+                  <input type="text" placeholder="Search" className="flex placeholder:text-[#C9C9C9] text-black bg-transparent outline-none " />
+                  <SearchIcon />
+                </div>
+              </form>
+            </div>
             <button className="bg-lemon-lime text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
           </div>
         </nav>
