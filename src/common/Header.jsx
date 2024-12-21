@@ -38,7 +38,7 @@ const Header = () => {
                   <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">
                     {item.subMenu.map((subItem, subIndex) => (
                       <a key={subIndex} href="#" onClick={() => setActiveIndex(null)} className="block px-4 py-2
-                     hover:bg-gray-100  duration-200">{subItem}
+                     hover:bg-white duration-200">{subItem}
                       </a>
                     ))}
                   </div>
@@ -50,8 +50,8 @@ const Header = () => {
             </div>
             <div className="lg:hidden">
               <form action="">
-                <div className="flex bg-[#E8E8E8] py-[21px] px-10 ">
-                  <input type="text" placeholder="Search" className="flex placeholder:text-[#C9C9C9] text-black bg-transparent outline-none " />
+                <div className="flex bg-platinum py-[21px] px-10 ">
+                  <input type="text" placeholder="Search" className="flex placeholder:text-ghost-silver text-black bg-transparent outline-none " />
                   <SearchIcon />
                 </div>
               </form>

@@ -15,6 +15,8 @@ module.exports = {
             'pine-green':'#097980',
             'cloudy-blue':'#9dc9cc',
             'lemon-lime':'#D2F038',
+            'ghost-silver':'#C9C9C9',
+            'platinum':'#E8E8E8',
         }
       },
     },

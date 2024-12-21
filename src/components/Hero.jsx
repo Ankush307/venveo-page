@@ -21,7 +21,7 @@ const Hero = () => {
       <img className='w-full absolute bottom-[20%] max-lg:hidden' src="./assets/image/webp/bg-line.webp" alt="bg line" />
       <div className="hero-section px-4 z-10">
         <div className="relative max-w-[871px] mx-auto pb-20">
-          <img src="./assets/image/png/made-for-brands.png" alt="made-for-brands" className='h-[107px] lg:left-[-6%] xl:left-[-5%] absolute md:left-[70%] lg:bottom-[25%] md:bottom-[10%] max-sm:bottom-[18%] max-sm:left-[62%]' />
+          <img src="./assets/image/png/made-for-brands.png" alt="made-for-brands" className='h-[107px] xl:left-[-5%] lg:left-[-6%] md:left-[70%] max-md:left-[62%]  lg:bottom-[25%] md:bottom-[15%] max-md:bottom-[18%] absolute' />
           <img className='max-w-[871px] mx-auto  w-full max-xl:pb-14 max-sm:h-[380px] ' src="./assets/image/png/hero-img.png" alt="hero img" />
         </div>
       </div>
