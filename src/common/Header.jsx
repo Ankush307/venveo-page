@@ -16,8 +16,8 @@ const Header = () => {
   };
 
   return (
-    <div className="max-w-[1440px] mx-auto">
-      <div className="container mx-auto max-w-[1440px] max-lg:px-4">
+    <>
+      <div className="container mx-auto max-w-[1920px] max-lg:px-4">
         <nav className="flex justify-between bg-pine-green max-lg:items-center text-white lg:pl-14">
           <div className="z-[52] relative">
             <a href="/"><img src="./assets/image/webp/venveo-logo.webp" alt="pageLogo" className="sm:w-[59px] lg:pt-8 pt-4 w-11" /></a>
@@ -45,7 +45,7 @@ const Header = () => {
                 )}
               </div>
             ))}
-            <div className="max-lg:hidden">
+            <div className="max-lg:hidden cursor-pointer">
               <SearchIcon />
             </div>
             <div className="lg:hidden">
@@ -56,11 +56,11 @@ const Header = () => {
                 </div>
               </form>
             </div>
-            <button className="bg-lemon-lime text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
+            <button className="bg-lemon-lime right-button hover:bg-black hover:text-white transition-all duration-300 ease-linear text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
           </div>
         </nav>
       </div>
-    </div>
+    </>
   );
 };
 

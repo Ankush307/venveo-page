@@ -4,3 +4,10 @@ select#dropdown {
 .hero-section{
     background: linear-gradient(to bottom, #097980 50%, white  50%);
   }
+  .right-button svg path{
+    transition: all 300ms linear;
+  }
+
+  .right-button:hover svg path {
+    stroke: white;
+  }
