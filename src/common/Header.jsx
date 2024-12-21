@@ -31,7 +31,7 @@ const Header = () => {
             {HEADER_LIST.map((item, index) => (
               <div key={index} className="relative lg:text-black">
                 <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium duration-200 focus:outline-none">
-                  {item.name}
+                  {item.name} <span className="text-[8px] ">{item.subName} </span>
                 </button>
 
                 {item.subMenu && activeIndex === index && (
