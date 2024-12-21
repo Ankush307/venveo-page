@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../common/Header'
 
 const Hero = () => {
-  
+
   return (
     <div className='bg-pine-green xl:min-h-[1103px] overflow-hidden relative'>
       <Header />
@@ -20,7 +20,7 @@ const Hero = () => {
       <img className='absolute max-w-[534px] top-[65.5%] right-[-1%] max-xl:hidden' src="./assets/image/webp/hero-bottom-layer.webp" alt="top layer" />
       <img className='w-full absolute bottom-[20%] max-lg:hidden' src="./assets/image/webp/bg-line.webp" alt="bg line" />
       <div className="hero-section px-4 z-10">
-        <div className="relative max-w-[871px] mx-auto pb-14">
+        <div className="relative max-w-[871px] mx-auto pb-20">
           <img src="./assets/image/png/made-for-brands.png" alt="made-for-brands" className='md:h-[107px] max-sm:h-[90px] lg:left-[-6%] xl:left-[-5%] absolute md:left-[70%] lg:bottom-[25%] md:bottom-[10%] max-sm:bottom-[18%] max-sm:left-[62%]' />
           <img className='max-w-[871px] mx-auto  w-full max-xl:pb-14 max-sm:h-[329px] ' src="./assets/image/png/hero-img.png" alt="hero img" />
         </div>
