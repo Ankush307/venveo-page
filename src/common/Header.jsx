@@ -30,7 +30,7 @@ const Header = () => {
           <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] font-maisonneue max-lg:w-full max-lg:flex-col bg-white max-lg:bg-gray-800 max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
             {HEADER_LIST.map((item, index) => (
               <div key={index} className="relative lg:text-black">
-                <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium duration-200 focus:outline-none">
+                <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium duration-300 focus:outline-none">
                   {item.name} <span className="text-[8px] ">{item.subName} </span>
                 </button>
 
@@ -45,8 +45,8 @@ const Header = () => {
                 )}
               </div>
             ))}
-            <div className="max-lg:hidden cursor-pointer">
-              <SearchIcon />
+            <div className="max-lg:hidden">
+             <a href="#search"><SearchIcon /></a>
             </div>
             <div className="lg:hidden">
               <form action="">
