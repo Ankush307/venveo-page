@@ -27,16 +27,16 @@ const Header = () => {
             <span className={`w-8 transition-all duration-300 h-0.5 bg-white rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}></span>
           </button>
 
-          <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] font-maisonneue max-lg:w-full max-lg:flex-col bg-white max-lg:bg-gray-800 max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
+          <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] font-maisonneue max-lg:w-full max-lg:flex-col bg-white max-lg:bg-dark-blue max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
             {HEADER_LIST.map((item, index) => (
               <div key={index} className="relative lg:text-black">
                 <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium duration-300 focus:outline-none">
-                  {item.name} <span className="text-[8px] ">{item.subName} </span>
+                  {item.name} <span className="text-[8px] ">{item.icon} </span>
                 </button>
 
-                {item.subMenu && activeIndex === index && (
+                {item.menu && activeIndex === index && (
                   <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">
-                    {item.subMenu.map((subItem, subIndex) => (
+                    {item.menu.map((subItem, subIndex) => (
                       <a key={subIndex} href="#" onClick={() => setActiveIndex(null)} className="block px-4 py-2
                      hover:bg-white duration-200">{subItem}
                       </a>

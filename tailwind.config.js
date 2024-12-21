@@ -17,6 +17,7 @@ module.exports = {
             'lemon-lime':'#D2F038',
             'ghost-silver':'#C9C9C9',
             'platinum':'#E8E8E8',
+            'dark-blue':'#194c4d',
         }
       },
     },
