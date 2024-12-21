@@ -2,11 +2,7 @@ import React from 'react'
 import Header from '../common/Header'
 
 const Hero = () => {
-  let text = "tmkc"
-  function handler() {
-
-
-  }
+  
   return (
     <div className='bg-pine-green xl:min-h-[1103px] overflow-hidden relative'>
       <Header />
@@ -17,7 +13,7 @@ const Hero = () => {
         <form>
           <div className="mb-16 bg-transparent border-2 border-white rounded-full py-5 px-9  flex items-center justify-between gap-2 max-w-[448px] mx-auto">
             <input type="website" placeholder='Enter Your Website' className='font-maisonneue text-[15px] w-[60%] leading-[133%] placeholder:text-cloudy-blue outline-none bg-transparent text-white' required />
-            <button onClick={() => console.log(text)} className='font-maisonneue text-[15px] font-semibold leading-[133%] text-white'>Analyze </button>
+            <button className='font-maisonneue text-[15px] font-semibold leading-[133%] text-white'>Analyze </button>
           </div>
         </form>
       </div>
