@@ -46,12 +46,12 @@ const Header = () => {
               </div>
             ))}
             <div className="max-lg:hidden">
-             <a href="#search"><SearchIcon /></a>
+              <a href="#search"><SearchIcon /></a>
             </div>
             <div className="lg:hidden">
               <form action="">
-                <div className="flex bg-platinum py-[21px] px-10 ">
-                  <input type="text" placeholder="Search" className="flex placeholder:text-ghost-silver text-black bg-transparent outline-none " />
+                <div className="flex bg-platinum py-[21px] px-10">
+                  <input type="text" placeholder="Search" className="flex placeholder:text-black text-black bg-transparent outline-none " />
                   <SearchIcon />
                 </div>
               </form>

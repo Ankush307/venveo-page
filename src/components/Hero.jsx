@@ -20,9 +20,9 @@ const Hero = () => {
       <img className='absolute max-w-[534px] top-[65.1%] right-[-1%] max-xl:hidden' src="./assets/image/webp/hero-bottom-layer.webp" alt="top layer" />
       <img className='w-full absolute bottom-[20%] max-lg:hidden' src="./assets/image/webp/bg-line.webp" alt="bg line" />
       <div className="hero-section px-4 z-10">
-        <div className="relative max-w-[871px] mx-auto pb-20">
-          <img src="./assets/image/png/made-for-brands.png" alt="made-for-brands" className='h-[107px] xl:left-[-5%] lg:left-[-6%] md:left-[70%] max-md:left-[62%]  lg:bottom-[25%] md:bottom-[15%] max-md:bottom-[18%] absolute pointer-events-none' />
-          <img className='max-w-[871px] mx-auto  w-full max-xl:pb-14 max-sm:h-[380px] ' src="./assets/image/png/hero-img.png" alt="hero img" />
+        <div className="relative max-w-[871px] mx-auto md:pb-20 pb-14">
+          <img src="./assets/image/png/made-for-brands.png" alt="made-for-brands" className='h-[107px] xl:left-[-5%] lg:left-[-6%] md:left-[70%] max-md:left-[62%] lg:bottom-[25%] md:bottom-[5%] max-md:bottom-[3%] absolute pointer-events-none' />
+          <img className='max-w-[871px] mx-auto  w-full  max-sm:h-[329px] ' src="./assets/image/png/hero-img.png" alt="hero img" />
         </div>
       </div>
     </div>

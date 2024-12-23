@@ -15,3 +15,7 @@
     font-family: "maisonneuelight";
     src: url('/public/assets/font/MaisonNeue-Light.ttf') format("truetype");
   }
+@font-face {
+    font-family: "maisonneuenormal";
+    src: url('/public/assets/font/MaisonNeue-Book.ttf') format("truetype");
+  }

@@ -1,13 +1,35 @@
 select#dropdown {
-    appearance: none; 
+    appearance: none;
 }
-.hero-section{
-    background: linear-gradient(to bottom, #097980 50%, white  50%);
-  }
-  .right-button svg path{
-    transition: all 300ms linear;
-  }
 
-  .right-button:hover svg path {
+.hero-section {
+    background: linear-gradient(to bottom, #097980 50%, white 50%);
+}
+
+.right-button svg path {
+    transition: all 300ms linear;
+}
+
+.right-button:hover svg path {
     stroke: white;
-  }
+}
+
+@media (max-width:768px) {
+    @keyframes slide-right {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(-50%);
+        }
+    }
+
+    .slide-scroll-left {
+        animation: slide-right 10s linear infinite;
+    }
+
+    .slide-scroll-left:hover {
+        animation-play-state: paused;
+    }
+}
