@@ -1,5 +1,5 @@
 import React from 'react';
-import { CLIENTS_CARDS } from '../utils/helper';
+import { CLIENTS_CARDS_LIST } from '../utils/helper';
 import { ButtonArrow } from '../utils/icons';
 
 const SatisfiedClients = () => {
@@ -9,7 +9,7 @@ const SatisfiedClients = () => {
             <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohneschmal uppercase leading-[87%] text-center md:max-w-[516px] lg:max-w-[574px] max-w-[430px] max-[450px]:max-w-[286px] mx-auto'>1,400+ satisfied clients. <span> <img className='max-sm:max-w-[84px] max-[430px]:translate-y-[-55px] ' src="./assets/image/svg/small-red-line.svg" alt="red line"/></span></h3>
            
             <div className="flex flex-wrap justify-between max-xl:justify-center max-xl:gap-6 mt-10 max-xl:m-4 max-w-[1920px] mx-auto">
-                {CLIENTS_CARDS.map((obj, i) => (
+                {CLIENTS_CARDS_LIST.map((obj, i) => (
                     <div
                         key={i} className={`bg-no-repeat bg-center relative bg-cover max-sm:flex max-sm:justify-center max-sm:items-center max-sm:flex-col !w-[440px] max-sm:w-[320px] ${i === 1 ? "bg-cardImgTwo" : i === 2 ? "bg-cardImgThree" : "bg-cardImgOne"}`}>
                         <div className='flex flex-col bg-white w-[382px] max-sm:w-[320px] rounded-[25px] shadow-lg px-7 pt-[38px] max-sm:m-4 pb-[31px] mx-7 mt-[31px]'>

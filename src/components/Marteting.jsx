@@ -1,5 +1,5 @@
 import React from 'react';
-import { MARKETING_CARD_LIST } from '../utils/helper';
+import { MARKETING_CARDS_LIST } from '../utils/helper';
 import { ButtonArrow } from '../utils/icons';
 
 const Marketing = () => {
@@ -11,22 +11,22 @@ const Marketing = () => {
                 We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners.
             </p>
             <img src="./assets/image/png/yellow-line.png" alt="yellow-line"
-                className="w-full -z-10 translate-y-[6rem]"/>
+                className="w-full -z-10 translate-y-[10rem]" />
             <div className="flex flex-wrap gap-[66px] max-md:gap-6 justify-center pt-10 max-sm:mx-4 max-w-[1920px] mx-auto">
-                {MARKETING_CARD_LIST.map((obj, i) => (
+                {MARKETING_CARDS_LIST.map((obj, i) => (
                     <div key={i}
-                        className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full">
+                        className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[38px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full ">
                         <div className="flex items-start gap-6 max-sm:flex-col">
                             <img src={obj.logo} alt="data-icon" className='pointer-events-none' />
                             <div>
                                 <h3 className="text-black font-light text-custom3xl leading-[30px] max-w-[325px]">{obj.title}</h3>
                                 <p className="text-black font-normal max-w-[315px] tracking-[2px] pt-5 leading-[20px]">{obj.description}</p>
-                                <ul className="list-disc pl-5 mt-7 max-w-[285px]">
+                                <ul className="list-disc pl-5 mt-7 max-w-[310px]">
                                     <li className='font-semibold text-black leading-[20px]'>{obj.listOne}</li>
                                     <li className='font-semibold text-black leading-[20px]'>{obj.listTwo}</li>
                                     <li className='font-semibold text-black leading-[20px]'>{obj.listThree}</li>
                                 </ul>
-                                <button className="mt-[52px] flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px]">
+                                <button className={`mt-[52px] flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i === 0 ? 'mt-[72px]' : i === 2 ? 'mt-[72px]' : ''}`}>
                                     {obj.btn} <ButtonArrow />
                                 </button>
                             </div>

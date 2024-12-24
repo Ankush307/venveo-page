@@ -31,7 +31,7 @@ export const HEADER_LIST = [
     }
 ]
 
-export const CLIENTS_CARDS = [
+export const CLIENTS_CARDS_LIST = [
     {
         heading: "Education Company",
         logo: <AmberIcon />,
@@ -72,7 +72,7 @@ export const CLIENTS_CARDS = [
     },
 ];
 
-export const MARKETING_CARD_LIST = [
+export const MARKETING_CARDS_LIST = [
     {
         logo: './assets/image/svg/four-circle.svg',
         title: "My website isn’t getting enough traffic",
