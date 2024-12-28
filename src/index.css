@@ -9,13 +9,13 @@
 
 @font-face {
     font-family: "maisonneue";
-    src: url('/public/assets/font/Maison-Neue.ttf') format("truetype");
+    src: url('/public/assets/font/mundial-bold-tty.otf') format("truetype");
   }
 @font-face {
     font-family: "maisonneuelight";
-    src: url('/public/assets/font/MaisonNeue-Light.ttf') format("truetype");
+    src: url('/public/assets/font/mundial-light-tty.otf') format("truetype");
   }
 @font-face {
     font-family: "maisonneuenormal";
-    src: url('/public/assets/font/MaisonNeue-Book.ttf') format("truetype");
+    src: url('/public/assets/font/mundial-regular-tty.otf') format("truetype");
   }

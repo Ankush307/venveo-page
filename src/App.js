@@ -1,16 +1,15 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import SatisfiedClients from './components/ SatisfiedClients';
-import Hero from './components/Hero';
-import Marketing from './components/Marteting';
-import OurPartners from './components/OurPartners';
+import Home from './view/Home';
 
 function App() {
   return (
     <>
-      <Hero />
-      <OurPartners />
-      <SatisfiedClients />
-      <Marketing />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -114,3 +114,100 @@ export const MARKETING_CARDS_LIST = [
         btn: "Explore SEO Services ",
     },
 ];
+
+export const SWIPER_DATA = [
+    {
+        image: "./assets/image/webp/slider-img1.webp",
+        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/image/webp/slider-img2.webp",
+        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/image/webp/slider-img3.webp",
+        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/image/webp/slider-img1.webp",
+        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/image/webp/slider-img2.webp",
+        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    }
+];
+
+export const FROM_US_LIST = [
+    {
+        heading: "guides",
+        discription: "Marketing to Contractors and Installers:",
+        discriptionTwo: "The Ultimate Guide",
+        discriptionThree: "Understanding the process and maximize the opportunities",
+        btn: "Read More",
+    }
+];
+
+export const MULTI_CHANNEL_LIST = [
+    {
+        heading: "multi-channel marketing",
+        discription: "How to Get Your Product into Lowe's",
+        discriptionTwo: "Understanding the process and maximize the opportunities",
+        btn: "Read More",
+    },
+    {
+        heading: "lead-gen",
+        discription: "Get Your Sales Team Ready for Digital Leads",
+        discriptionTwo: "unlock substantial business growth by enhancing collaboration skills and digital marketing expertise",
+        btn: "Read More",
+    },
+    {
+        heading: "ecommerce",
+        discription: "How to Sell Building Materials Online",
+        discriptionTwo: "Explore how selling building materials online opens up wider audiences, efficient sales and insightful data,",
+        btn: "Read More",
+    },
+];
+export const FOOTER_LIST = [
+    {
+        title: "how we help",
+        list: "Get more Customers",
+        listTwo: "Drive More Leads",
+        listThree: "Build Your Brand",
+        listFour: "Improve your reputation",
+        listFive: "Track Results",
+    },
+    {
+        title: "who we help",
+        list: "Digital Advertising",
+        listTwo: "Search Engine Ranking",
+        listThree: "Content Marketing",
+        listFour: "Programic Advertising",
+        listFive: "Email Marketing",
+    },
+    {
+        title: "why venveo",
+        list: "About Us",
+        listTwo: "Careers",
+        listThree: "Growth Studies",
+        listFour: "Testimonials",
+    },
+    {
+        title: "resources",
+        list: "Articles",
+        listTwo: "News",
+        listThree: "Webinars",
+        listFour: "EBooks",
+        listFive: "Podcast",
+    },
+];
