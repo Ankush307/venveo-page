@@ -14,8 +14,8 @@ const PowerGrow = () => {
         <div className="bg-cover  bg-no-repeat bg-center bg-swiperBgImg flex flex-col justify-center items-center overflow-hidden">
             <div className="container relative max-w-[1920px] mx-auto">
                 <div className="text-center pt-[119px]  max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
-                    <h3 className="text-white font-maisonneuelight font-light text-lg sm:text-xl md:text-2xl lg:text-custom3xl leading-6 md:leading-[30px]">Actual businesses.</h3>
-                    <h2 className="text-white font-sohneschmal font-bold text-6xl lg:text-[80px] leading-8 sm:leading-[40px] md:leading-[50px] lg:leading-[70px]">Actual results.</h2>
+                    <h3 className="text-white font-maisonLight font-light text-lg sm:text-xl md:text-2xl lg:text-custom3xl leading-6 md:leading-[30px]">Actual businesses.</h3>
+                    <h2 className="text-white font-sohne font-bold text-6xl lg:text-[80px] leading-8 sm:leading-[40px] md:leading-[50px] lg:leading-[70px]">Actual results.</h2>
                     <p className="text-white font-maisonRegular font-normal text-sm sm:text-base md:text-lg lg:text-customsm leading-5 pt-4 sm:pt-6 md:pt-10">Businesses trust Venveo to power growth.</p>
                 </div>
 
@@ -51,9 +51,9 @@ const PowerGrow = () => {
                             <SwiperSlide key={index}>
                                 <div className="text-center w-full max-w-[992px] mx-auto px-4">
                                     <img src={slide.image} alt='img' className="w-full max-w-[320px] sm:max-w-[480px] lg:max-w-[640px] mx-auto" />
-                                    <p className="text-white pt-6 sm:pt-8 lg:pt-[74px] font-maisonneuelight font-light max-w-[300px] sm:max-w-[450px] lg:max-w-[613px] mx-auto text-base sm:text-lg lg:text-[30px]"> {`"${slide.description}"`}</p>
-                                    <p className="text-white font-normal pt-4 sm:pt-5 font-maisonneuenormal text-sm sm:text-base lg:text-customsm">{slide.name},</p>
-                                    <p className="text-white font-normal font-maisonneuenormal text-sm sm:text-base lg:text-customsm">{slide.title}</p>
+                                    <p className="text-white pt-6 sm:pt-8 lg:pt-[74px] font-maisonLight font-light max-w-[300px] sm:max-w-[450px] lg:max-w-[613px] mx-auto text-base sm:text-lg lg:text-[30px]"> {`"${slide.description}"`}</p>
+                                    <p className="text-white font-normal pt-4 sm:pt-5 font-maisonRegular text-sm sm:text-base lg:text-customsm">{slide.name},</p>
+                                    <p className="text-white font-normal font-maisonRegular text-sm sm:text-base lg:text-customsm">{slide.title}</p>
                                     <p className="text-center pt-3 mx-auto flex items-center justify-center"><UsIcon /></p>
                                 </div>
                             </SwiperSlide>

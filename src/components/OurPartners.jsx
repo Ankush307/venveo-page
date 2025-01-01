@@ -5,7 +5,7 @@ const Features = () => {
   return (
     <div className=''>
       <div className="container mx-auto max-lg:px-5">
-        <p className='text-[15px] font-maisonneue font-normal text-black text-center uppercase leading-[15px]'>Featured in</p>
+        <p className='text-[15px] font-maisonRegular font-normal text-black text-center uppercase leading-[15px]'>Featured in</p>
         <div className=' overflow-hidden flex items-center mt-12 mb-[73px] max-lg:my-10 max-w-[1025px] mx-auto justify-evenly max-md:gap-9 slide-scroll-left'>
           <WsjIcon />
           <EnterpreneurIcon />

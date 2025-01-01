@@ -5,9 +5,9 @@ import { ButtonArrow } from '../utils/icons';
 const Marketing = () => {
     return (
         <div className="pt-[132px] pb-[129px] max-xl:py-28 max-lg:py-20 max-md:py-16 max-sm:py-10 relative md:px-0 px-3">
-            <p className='md:text-[30px] text-2xl font-maisonneuelight text-center pb-1'>Problems we solve.</p>
-            <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohneschmal uppercase leading-[87%] text-center max-w-[500px] mx-auto'>Digital Marketing for today’s Business</h3>
-            <p className="font-normal font-maisonneuenormal uppercase text-center max-w-[645px] leading-[20px] pt-6 text-black mx-auto tracking-[1px] max-sm:max-w-[307px]">
+            <p className='md:text-[30px] text-2xl font-maisonLight font-light text-center pb-1'>Problems we solve.</p>
+            <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohne font-bold uppercase leading-[70px] text-center max-w-[500px] mx-auto'>Digital Marketing for today’s Business</h3>
+            <p className="font-normal text-[15px] font-maisonRegular text-center max-w-[700px] leading-[20px] pt-6 text-black mx-auto max-sm:max-w-[307px]">
                 We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners.
             </p>
             <img src="./assets/image/png/yellow-line.png" alt="yellow-line"
@@ -19,12 +19,12 @@ const Marketing = () => {
                         <div className="flex items-start gap-6 max-sm:flex-col">
                             <img src={obj.logo} alt="data-icon" className='pointer-events-none' />
                             <div>
-                                <h3 className="text-black font-light text-[30px] font-maisonneuenorma font-maisonneuelight leading-[30px] max-w-[346px]">{obj.title}</h3>
-                                <p className="text-black font-normal max-w-[315px] tracking-[2px] pt-[15px] leading-[20px]">{obj.description}</p>
+                                <h3 className="text-black font-light text-[30px] font-maisonLight leading-[30px] max-w-[346px]">{obj.title}</h3>
+                                <p className="text-black font-normal font-maisonRegular text-[15px] max-w-[315px] pt-[15px] leading-[20px]">{obj.description}</p>
                                 <ul className="list-disc pl-5 mt-[15px] max-w-[310px]">
-                                    <li className='font-semibold text-black leading-[20px]'>{obj.listOne}</li>
-                                    <li className='font-semibold text-black leading-[20px]'>{obj.listTwo}</li>
-                                    <li className='font-semibold text-black leading-[20px]'>{obj.listThree}</li>
+                                    <li className='font-semibold font-maisonMedium text-black leading-[20px]'>{obj.listOne}</li>
+                                    <li className='font-semibold font-maisonMedium text-black leading-[20px]'>{obj.listTwo}</li>
+                                    <li className='font-semibold font-maisonMedium text-black leading-[20px]'>{obj.listThree}</li>
                                 </ul>
                                 <button className={`mt-[52px] flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i === 0 ? 'mt-[72px]' : i === 2 ? 'mt-[72px]' : ''}`}>
                                     {obj.btn} <ButtonArrow />

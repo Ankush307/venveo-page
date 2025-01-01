@@ -27,10 +27,10 @@ const Header = () => {
             <span className={`w-8 transition-all duration-300 h-0.5 bg-white rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}></span>
           </button>
 
-          <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] font-maisonneue max-lg:w-full max-lg:flex-col bg-white max-lg:bg-dark-blue max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
+          <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] max-lg:w-full max-lg:flex-col bg-white max-lg:bg-dark-blue max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
             {HEADER_LIST.map((item, index) => (
               <div key={index} className="relative lg:text-black">
-                <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium duration-300 focus:outline-none">
+                <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium font-maisonMedium duration-300 focus:outline-none">
                   {item.name} <span className="text-[8px] ">{item.icon} </span>
                 </button>
 
@@ -56,7 +56,7 @@ const Header = () => {
                 </div>
               </form>
             </div>
-            <button className="bg-lemon-lime right-button hover:bg-black hover:text-white transition-all duration-300 ease-linear text-black font-semibold font-maisonneue py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
+            <button className="bg-lemon-lime right-button hover:bg-black hover:text-white transition-all duration-300 ease-linear text-black font-maisonBold font-semibold py-7 px-8 flex items-center gap-1.5">Let’s Talk <ArrowIcon /> </button>
           </div>
         </nav>
       </div>

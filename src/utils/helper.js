@@ -1,4 +1,4 @@
-import { AmberIcon, FarnsWorthIcon, UsIcon } from "./icons";
+import { AmberIcon, BuildBrandIcon, EyeIcon, FarnsWorthIcon, GetCustomersIcon, ImproveIcon, TrackResultIcon, UsIcon } from "./icons";
 
 export const HEADER_LIST = [
     {
@@ -209,5 +209,38 @@ export const FOOTER_LIST = [
         listThree: "Webinars",
         listFour: "EBooks",
         listFive: "Podcast",
+    },
+];
+export const FOOTER_SM_VIEW_LIST = [
+    {
+        icon: <EyeIcon />,
+        iconTwo: <GetCustomersIcon />,
+        iconThree: <BuildBrandIcon />,
+        iconFour: <ImproveIcon />,
+        iconFive: <TrackResultIcon />,
+        title: "How We Help",
+        titleIcon: "▼",
+        list: "Drive More Awareness",
+        listTwo: "Get More Customers",
+        listThree: "Build Your Brand",
+        listFour: "Improve your reputation",
+        listFive: "Track Results",
+    },
+    {
+        title: "Who We Help ",
+        titleIcon: "▼",
+        list: "Digital Advertising",
+        listTwo: "Search Engine Ranking",
+        listThree: "Content Marketing",
+        listFour: "Programic Advertising",
+        listFive: "Email Marketing",
+    },
+    {
+        title: "Why Venveo",
+        titleIcon: "▼",
+        list: "About Us",
+        listTwo: "Careers",
+        listThree: "Growth Studies",
+        listFour: "Testimonials",
     },
 ];
