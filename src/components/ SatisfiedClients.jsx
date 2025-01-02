@@ -20,7 +20,7 @@ const SatisfiedClients = () => {
                             <p className="max-w-[280px] text-[15px] font-maisonRegular leading-[133%] font-normal text-black uppercase max-sm:pt-5 pt-6">
                                 {obj.description}
                             </p>
-                            <button className="mt-[54px] max-md:mt-9 max-sm:mt-7 font-semibold font-maisonMedium flex items-center gap-2">
+                            <button className="mt-[54px] hover:gap-4 transition-all duration-300 ease-linear max-md:mt-9 max-sm:mt-7 font-semibold font-maisonMedium flex items-center gap-2">
                                 {obj.btn} <ButtonArrow />
                             </button>
                         </div>

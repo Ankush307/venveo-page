@@ -8,7 +8,7 @@ const Footer = () => {
         setMobileView(mobileView === index ? null : index)
     }
     return (
-        <footer className='bg-offGreen max-lg:px-4'>
+        <footer className='bg-offGreen'>
             <div className='max-w-[1321px] mx-auto pt-[90px] lg:pb-[105px] pb-[86px]  max-xl:pt-14 max-lg:pt-10 max-sm:pt-9 px-5'>
                 <div className='flex flex-wrap max-xl:flex-col-reverse max-xl:justify-center'>
                     <div className='xl:w-8/12 max-md:hidden max-lg:w-full flex xl:gap-[83px] max-md:gap-5 max-lg:flex-wrap max-sm:justify-center max-sm:items-center'>
@@ -43,13 +43,13 @@ const Footer = () => {
                         ))}
                     </div>
                     <div className='xl:w-4/12 w-full max-md:pt-7 max-xl:mb-16'>
-                        <h2 className='text-white text-3xl font-light font-maisonLight text-center'>Get weekly data — and insights.</h2>
-                        <CustomInput inputText='Enter Your Email' myClass='xl:!mx-0 !mx-auto !border-2 !border-white md:mx-auto mt-4 lg:mx-0 !mb-0' inputClass='!text-[15px] !font-normal placeholder:!text-white !font-maisonneuenormal' btnClass='!text-lemon-lime' btnText='Get Started' />
+                        <h2 className='text-white text-3xl font-light font-maisonLight text-center max-sm:max-w-[210px] mx-auto'>Get weekly data — and insights.</h2>
+                        <CustomInput inputText='Enter Your Email' myClass='xl:!mx-0 !mx-auto max-sm:!pt-[22px] max-sm:!pb-4 max-sm:!px-5 !border-2 !border-white md:mx-auto mt-4 lg:mx-0 !mb-0' inputClass='!text-[15px] !font-normal placeholder:!text-white !font-maisonneuenormal' btnClass='!text-lemon-lime' btnText='Get Started' />
                     </div>
                 </div>
                 <div className="flex pt-[80px] text-white items-end justify-between  max-[769px]:hidden">
                     <div>
-                        <a href="/"> <img className='pb-6' src="./assets/image/svg/footer-page-logo.svg" alt="" /></a>
+                        <a href="/" className='max-w-max flex mb-6'> <img src="./assets/image/svg/footer-page-logo.svg" alt="" /></a>
                         <p className='max-w-[315px] text-[13px] font-maisonRegular font-normal'>Venveo is an award-winning digital marketing solutions provider. Since 2003. ©2024 Venveo</p>
                     </div>
                     <div className="flex gap-[58px]">
@@ -62,25 +62,24 @@ const Footer = () => {
                         <div>
                             <p className='pb-[30px] text-[12px]'>CONTACT</p>
                             <div className="flex flex-col">
-                                <a href="mailto:info@venveo.com" className='text-[13px]'>info@venveo.com</a>
+                                <a href="mailto:info@venveo.com" className='text-[13px] hover:text-lightGreen duration-300 ease-linear'>info@venveo.com</a>
                                 <div className="h-[1px] bg-lemon-lime w-[106px] mb-5"></div>
-                                <a href="tel:+4733378901" className='text-[13px]' >1 · 800 · 123 · 4567</a>
+                                <a href="tel:+4733378901" className='text-[13px] hover:text-lightGreen duration-300 ease-linear' >1 · 800 · 123 · 4567</a>
                                 <div className="h-[1px] bg-lemon-lime w-[116px]"></div>
                             </div>
                         </div>
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <div className="flex">
-                            <a href="/" className='pr-8 text-[13px]'>All Rights Reserved</a>
-                            <a href="/" className='text-[13px]'>Privacy Policy</a>
+                            <a href="/" className='pr-8 text-[13px] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</a>
+                            <a href="/" className='text-[13px] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</a>
                         </div>
                         <div className="flex gap-[39px] pt-[34px] items-center justify-center">
-                            <a href="/"><img src="./assets/image/svg/Facebook.svg" alt="" /></a>
-                            <a href="/"><img src="./assets/image/svg/insta-icon.svg" alt="" /></a>
-                            <a href=""><img src="./assets/image/svg/twitter-icon.svg" alt="" /></a>
-                            <a href="/"><img src="./assets/image/svg/linkdin-icon.svg" alt="" /></a>
-                            <a href="/"><img src="./assets/image/svg/youtube-icon.svg" alt="" /></a>
-
+                            <a href="/" className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/Facebook.svg" alt="Facebook" /></a>
+                            <a href="/" className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/insta-icon.svg" alt="insta" /></a>
+                            <a href="/" className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/twitter-icon.svg" alt="twitter" /></a>
+                            <a href="/" className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/linkdin-icon.svg" alt="linkdin" /></a>
+                            <a href="/" className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/youtube-icon.svg" alt="youtube" /></a>
                         </div>
                     </div>
                 </div>
@@ -93,25 +92,25 @@ const Footer = () => {
                         </ul>
                         <ul>
                             <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium pb-0.5'>contact</p>
-                            <li className='pt-7'><a href="mailto:info@venveo.com" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>info@venveo.com</a></li>
-                            <li className='pt-5'><a href="tel:+4733378901" className='text-white font-light font-maisonLight text-customXsm leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>1 · 800 · 123 · 4567</a></li>
+                            <li className='pt-7'><a href="mailto:info@venveo.com" className='text-white font-light font-maisonLight text-[15px] leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>info@venveo.com</a></li>
+                            <li className='pt-5'><a href="tel:+4733378901" className='text-white font-light font-maisonLight text-[15px] leading-[153%px] hover:text-lightGreen duration-300 ease-linear border-b border-lemon-lime'>1 · 800 · 123 · 4567</a></li>
                         </ul>
                     </div>
                     <div className='flex gap-[34px] pt-16'>
-                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/Facebook.svg" alt="" /></a>
-                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/insta-icon.svg" alt="" /></a>
-                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/twitter-icon.svg" alt="" /></a>
-                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/linkdin-icon.svg" alt="" /></a>
-                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/youtube-icon.svg" alt="" /></a>
+                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/Facebook.svg" alt="Facebook" /></a>
+                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/insta-icon.svg" alt="insta" /></a>
+                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/twitter-icon.svg" alt="twitter" /></a>
+                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/linkdin-icon.svg" alt="linkdin" /></a>
+                        <a className='hover:scale-125 duration-300 ease-linear'><img src="./assets/image/svg/youtube-icon.svg" alt="youtube" /></a>
                     </div>
                     <div className='flex items-center justify-center flex-col text-center pt-14'>
                         <a href="/" className='pb-0.5'><img src="./assets/image/svg/footer-page-logo.svg" alt="" /> </a>
-                        <p className='max-w-[415px] text-white text-customXsm font-normal font-maisonLight leadin-[153%] pt-3'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
+                        <p className='max-w-[415px] text-white text-[15px] font-normal font-maisonLight leadin-[153%] pt-3'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
                             ©2024 Venveo</p>
                     </div>
                     <div className='flex gap-8 pt-9'>
-                        <a href="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</a>
-                        <a href="/" className='text-white text-customXsm font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</a>
+                        <a href="/" className='text-white text-[15px] font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>All Rights Reserved</a>
+                        <a href="/" className='text-white text-[15px] font-maisonMedium font-medium leading-[153%] hover:text-lightGreen duration-300 ease-linear'>Privacy Policy</a>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { MULTI_CHANNEL_LIST } from '../utils/helper'
-import { NextBtn } from '../utils/icons';
 
 const MultiChannel = () => {
     const [showMore, setShowMore] = useState(false);
@@ -10,7 +9,7 @@ const MultiChannel = () => {
     const displayedCards = showMore ? MULTI_CHANNEL_LIST : MULTI_CHANNEL_LIST.slice(0, 1);
 
     return (
-        <div className='container max-w-[1920px] mx-auto py-16'>
+        <div className='container max-w-[1920px] mx-auto py-16 max-sm:pt-4'>
             <div className='flex flex-wrap items-center lg:justify-between sm:justify-center max-xl:gap-y-10 max-lg:hidden'>
                 {MULTI_CHANNEL_LIST.map((obj, i) => (
                     <div className={`${i === 1 ? 'bg-cardImgBgTwo' : i === 2 ? 'bg-cardImgBgThree' : 'bg-cardImgBgOne'} sm:pt-[202px] sm:p-[29px] pl-[100px] py-5 lg:max-h-[551px] max-sm:max-h-[240px] bg-cover bg-no-repeat bg-center max-w-[440px] xl:mx-0 sm:mx-auto max-sm:w-full`} key={i}>
@@ -41,7 +40,7 @@ const MultiChannel = () => {
             <button className='text-xl text-center flex items-center justify-center w-full mx-auto gap-2 text-customsm leading-5 font-maisonMedium pt-9 lg:hidden'
                 onClick={toggleShowMore} >
                 {showMore ? 'Less More Resources' : 'Show More Resources'}
-                <span className={`${showMore ? 'rotate-180' : ''} duration-300 ease-linear`}>▼</span>
+                <span className={`${showMore ? 'rotate-180' : ''} duration-300 ease-linear text-[8px]`}>▼</span>
             </button>
         </div>
     )

@@ -27,7 +27,7 @@ const Header = () => {
             <span className={`w-8 transition-all duration-300 h-0.5 bg-white rounded-md relative after:w-full after:h-full after:bg-white after:absolute after:top-0 after:left-0 after:rounded-md ${open ? 'rotate-45 after:rotate-90' : ''}`}></span>
           </button>
 
-          <div className={`flex gap-[42px] max-lg:fixed max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] max-lg:w-full max-lg:flex-col bg-white max-lg:bg-dark-blue max-lg:duration-300 max-lg:justify-center max-lg:items-center z-40 ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
+          <div className={`flex gap-[42px] max-lg:fixed z-[50] max-lg:top-0 lg:pl-12 lg:items-center max-lg:h-full lg:h-[80px] max-lg:w-full max-lg:flex-col bg-white max-lg:bg-dark-blue max-lg:duration-300 max-lg:justify-center max-lg:items-center ${open ? 'max-lg:left-0' : 'max-lg:left-full'}`}>
             {HEADER_LIST.map((item, index) => (
               <div key={index} className="relative lg:text-black">
                 <button onClick={() => handleClick(index)} className="relative z-[51] text-[15px] font-medium font-maisonMedium duration-300 focus:outline-none">

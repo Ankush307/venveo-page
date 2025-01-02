@@ -15,8 +15,8 @@ const PowerGrow = () => {
             <div className="container relative max-w-[1920px] mx-auto">
                 <div className="text-center pt-[119px]  max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
                     <h3 className="text-white font-maisonLight font-light text-lg sm:text-xl md:text-2xl lg:text-custom3xl leading-6 md:leading-[30px]">Actual businesses.</h3>
-                    <h2 className="text-white font-sohne font-bold text-6xl lg:text-[80px] leading-8 sm:leading-[40px] md:leading-[50px] lg:leading-[70px]">Actual results.</h2>
-                    <p className="text-white font-maisonRegular font-normal text-sm sm:text-base md:text-lg lg:text-customsm leading-5 pt-4 sm:pt-6 md:pt-10">Businesses trust Venveo to power growth.</p>
+                    <h2 className="text-white font-sohne font-bold text-6xl max-sm:pt-2 lg:text-[80px] leading-8 sm:leading-[40px] md:leading-[50px] lg:leading-[70px] ">Actual results.</h2>
+                    <p className="text-white font-maisonRegular font-normal text-sm sm:text-base md:text-lg lg:text-customsm leading-5 pt-9 sm:pt-6 md:pt-10">Businesses trust Venveo to power growth.</p>
                 </div>
 
                 <div className="mx-auto flex items-center justify-center w-full pt-10 md:pt-[81px] px-4 sm:px-6 max-w-[1920px] lg:px-0">

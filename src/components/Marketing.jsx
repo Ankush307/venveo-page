@@ -15,7 +15,7 @@ const Marketing = () => {
             <div className="flex flex-wrap gap-[66px] max-md:gap-6 justify-center pt-[31px] max-sm:mx-4 max-w-[1920px] mx-auto">
                 {MARKETING_CARDS_LIST.map((obj, i) => (
                     <div key={i}
-                        className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-extrimeGreen rounded-[25px] pl-[48px] ps-[31px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full ">
+                        className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-ball-blue rounded-[25px] pl-[48px] ps-[31px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full ">
                         <div className="flex items-start gap-6 max-sm:flex-col">
                             <img src={obj.logo} alt="data-icon" className='pointer-events-none' />
                             <div>
@@ -26,7 +26,7 @@ const Marketing = () => {
                                     <li className='font-semibold font-maisonMedium text-black leading-[20px]'>{obj.listTwo}</li>
                                     <li className='font-semibold font-maisonMedium text-black leading-[20px]'>{obj.listThree}</li>
                                 </ul>
-                                <button className={`mt-[52px] flex items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i === 0 ? 'mt-[72px]' : i === 2 ? 'mt-[72px]' : ''}`}>
+                                <button className={`mt-[52px] flex hover:gap-4 transition-all duration-300 ease-linear items-center gap-2 max-md:mt-8 max-sm:mt-6 text-customsm font-semibold leading-[20px] ${i === 0 ? 'mt-[72px]' : i === 2 ? 'mt-[72px]' : ''}`}>
                                     {obj.btn} <ButtonArrow />
                                 </button>
                             </div>
