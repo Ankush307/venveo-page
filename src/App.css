@@ -59,7 +59,9 @@ select#dropdown {
     display: none !important;
 }
 
-@media (max-width:768px) {
+
+
+@media (max-width:767.98px) {
     @keyframes slide-left {
         0% {
             transform: translateX(-5%);
@@ -77,4 +79,20 @@ select#dropdown {
     .slide-scroll-left:hover {
         animation-play-state: paused;
     }
+    .tab-one-bg{
+        background: linear-gradient(to bottom, transparent 60%, white 40%);
+    }
+    .go-line svg {
+        animation: to-line 2s infinite;
+      }
+      @keyframes to-line {
+        0%,
+        100% {
+          stroke-dashoffset: -350;
+          stroke-dasharray: 350;
+        }
+        50% {
+          stroke-dashoffset: 0;
+        }
+      }
 }

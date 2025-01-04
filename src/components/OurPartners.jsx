@@ -6,7 +6,7 @@ const Features = () => {
     <div className='overflow-hidden'>
       <div className="container mx-auto">
         <p className='text-[15px] font-maisonRegular font-normal text-black text-center uppercase leading-[15px]'>Featured in</p>
-        <div className='flex items-center mt-12 mb-[90px] max-lg:my-10 max-w-[1024px] mx-auto justify-evenly max-md:gap-9 slide-scroll-left'>
+        <div className='flex items-center mt-12 mb-[90px] max-lg:my-10 max-w-[1024px] mx-auto justify-evenly slide-scroll-left'>
           <WsjIcon />
           <EnterpreneurIcon />
           <FortuneIcon />

@@ -12,7 +12,7 @@ const Marketing = () => {
             </p>
             <img src="./assets/image/png/yellow-line.png" alt="yellow-line"
                 className="w-full -z-10 translate-y-[10rem]" />
-            <div className="flex flex-wrap gap-[66px] max-md:gap-6 justify-center pt-[31px] max-sm:mx-4 max-w-[1920px] mx-auto">
+            <div className="flex flex-wrap gap-[66px] max-md:gap-6 justify-center pt-[31px] max-w-[1920px] mx-auto">
                 {MARKETING_CARDS_LIST.map((obj, i) => (
                     <div key={i}
                         className="border-2 relative z-40 max-w-[502px] bg-white border-solid border-ball-blue rounded-[25px] pl-[48px] ps-[31px] max-md:p-10 max-sm:p-7 pt-[65px] pb-[54px] w-[calc(50%-12px)] max-lg:w-full ">

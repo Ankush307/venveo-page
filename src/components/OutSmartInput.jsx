@@ -1,5 +1,6 @@
 import React from 'react'
 import CustomInput from '../common/CustomInput'
+import { GoLine, GoLineTwo, GoLineone } from '../utils/icons'
 
 const OutSmartInput = () => {
     return (
@@ -13,8 +14,12 @@ const OutSmartInput = () => {
                     <div className="md:w-1/2 w-full">
                         <CustomInput inputText='Enter Your Website' myClass='bg-white mx-0 md:mx-auto mt-4 lg:mx-0 border-none !mb-0' inputClass='!text-black !text-[15px] !font-normal !font-maisonneuenormal placeholder:!text-black' btnClass='!text-black' btnText='Analyze' />
                     </div>
-                    <img className='absolute max-md:hidden left-[30%] bottom-[0%] lg:left-[40%] lg:bottom-[-44%] right-[50%]' src="./assets/image/svg/rounded-arrow.svg" alt="" />
-                    <img className='absolute md:hidden right-[26%] top-[20%] rotate-[40deg]' src="./assets/image/svg/rounded-arrow-sm.svg" alt="" />
+                    <div className="go-line absolute max-md:hidden left-[30%] bottom-[0%] lg:left-[40%] lg:bottom-[-44%] right-[50%]">
+                        <GoLineone />
+                    </div>
+                    <div className="go-line absolute md:hidden right-[26%] top-[20%] rotate-[40deg]">
+                        <GoLineTwo />
+                    </div>
                 </div>
             </div>
         </div>

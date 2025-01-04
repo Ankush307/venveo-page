@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HEADER_LIST } from "../utils/helper";
 import { ArrowIcon, SearchIcon } from "../utils/icons";
 
@@ -14,6 +14,14 @@ const Header = () => {
     setOpen(!open);
     setActiveIndex(null);
   };
+  const closeHandle = () => {
+    setActiveIndex(null)
+    setOpen(false)
+  };
+  useEffect(() => {
+    open && document.body.classList.add('overflow-hidden')
+    !open && document.body.classList.remove('overflow-hidden')
+  }, [open]);
 
   return (
     <>
@@ -37,7 +45,7 @@ const Header = () => {
                 {item.menu && activeIndex === index && (
                   <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">
                     {item.menu.map((subItem, subIndex) => (
-                      <a key={subIndex} href="#" onClick={() => setActiveIndex(null)} className="block px-4 py-2
+                      <a key={subIndex} href="#" onClick={closeHandle} className="block px-4 py-2
                      hover:bg-white duration-200">{subItem}
                       </a>
                     ))}
