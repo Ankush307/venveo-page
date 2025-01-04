@@ -3,14 +3,15 @@ export const ArrowIcon = () => (
         <path d="M23.2803 1L27.2403 4.96L23.2803 8.92" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
         <path d="M25.75 4.95996H1" stroke="black" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" />
     </svg>
-)
+);
+
 export const SearchIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M9.79102 19.3799C14.7616 19.3799 18.791 15.3504 18.791 10.3799C18.791 5.40932 14.7616 1.37988 9.79102 1.37988C4.82045 1.37988 0.791016 5.40932 0.791016 10.3799C0.791016 15.3504 4.82045 19.3799 9.79102 19.3799Z" stroke="black" stroke-width="1.4218" stroke-miterlimit="10" />
         <path d="M21.7909 23.3282C22.1815 23.7187 22.8146 23.7187 23.2052 23.3282C23.5957 22.9377 23.5957 22.3045 23.2052 21.914L21.7909 23.3282ZM15.7909 17.3282L21.7909 23.3282L23.2052 21.914L17.2052 15.914L15.7909 17.3282Z" fill="black" />
     </svg>
 
-)
+);
 
 export const WsjIcon = () => (
     <svg width="50" h eight="29" viewBox="0 0 50 29" fill="none" xmlns="http://www.w3.org/2000/svg" >
@@ -115,6 +116,7 @@ export const IncIcon = () => (
         />
     </svg>
 );
+
 export const AmberIcon = () => (
     <svg
         width="131"
@@ -213,11 +215,13 @@ export const UsIcon = () => (
         />
     </svg>
 );
+
 export const ButtonArrow = () => (
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M10 5.00343L0 0V10L10 5.00343Z" fill="#231F20" />
     </svg>
 );
+
 export const NetWorkIcon = () => (
     <svg
         width="20"
@@ -247,6 +251,7 @@ export const NetWorkIcon = () => (
         </defs>
     </svg>
 );
+
 export const LogoIpsumIcon = () => (
     <svg
         width="73"
@@ -298,11 +303,13 @@ export const LogoIpsumIcon = () => (
         />
     </svg>
 );
-export const NextBtn = () => {
+
+export const NextBtn = () => (
     <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M10 4.99657L0 10L-8.74228e-07 0L10 4.99657Z" fill="#231F20" />
     </svg>
-}
+);
+
 export const EyeIcon = () => (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1608_2973)">
@@ -430,6 +437,7 @@ export const TrackResultIcon = () => (
         </defs>
     </svg>
 );
+
 export const GoLineTwo = () => (
     <svg width="100" height="148" viewBox="0 0 100 148" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_1608_2799)">
@@ -445,6 +453,7 @@ export const GoLineTwo = () => (
         </defs>
     </svg>
 );
+
 export const GoLineone = () => (
     <svg width="139" height="80" viewBox="0 0 139 80" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clip-path="url(#clip0_10374_42)">

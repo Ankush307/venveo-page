@@ -29,7 +29,7 @@ const PartnersGrowth = () => {
                             <h3 className='text-white font-thin font-sohne lg:text-[80px] md:text-7xl text-6xl uppercase leading-[87%] max-w-[415px]'>the smartest minds in the industry</h3>
                             <p className='max-w-[360px] font-light text-[24px] font-maisonLight max-md:text-2xl text-white leading-[30px]'>Answer our questions and listen to our answers.</p>
                             <p className='max-w-[360px] sm:mt-[31px] mt-4 font-normal text-customsm font-maisonRegular leading-[20px] text-white'>This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
-                            <button className='max-lg:mb-6 max-sm:w-[334px] h-[84px] w-[250px] max-sm:mx-auto justify-center text-white font-medium font-maisonMedium text-customsm flex items-center bg-offRed transition-all duration-300 ease-linear hover:bg-black hover:text-white gap-[10px] mt-[58px]'><NetWorkIcon /> Subscribe to Podcast <span className='text-[6px]'>▼</span></button>
+                            <button className='max-lg:mb-6 max-sm:w-[334px] h-[84px] w-[250px] max-sm:mx-auto justify-center text-white font-medium font-maisonMedium text-customsm flex items-center bg-offRed transition-all duration-300 ease-linear hover:bg-black border border-transparent hover:border-white hover:text-white gap-[10px] mt-[58px]'><NetWorkIcon /> Subscribe to Podcast <span className='text-[6px]'>▼</span></button>
                         </div>
                         <div className="lg:hidden max-md:hidden">
                             <img src="/assets/image/png/tab-one-card.png" alt="card" className='lg:hidden max-w-[320px] mt-5 mx-auto' />
@@ -44,7 +44,6 @@ const PartnersGrowth = () => {
                 </div>
             );
         }
-
         if (activeTab === 2) {
             return (
                 <div className='bg-cover bg-no-repeat bg-center lg:bg-tabTwoBgImg max-lg:bg-tabTwoSmImg w-full max-w-[1337px] max-lg:h-full h-[720px] mx-auto'>
@@ -58,7 +57,7 @@ const PartnersGrowth = () => {
         }
         if (activeTab === 3) {
             return (
-                <div className='lg:bg-tabThreeBgImg md:flex justify-between max-lg:bg-tabThreeSmImg max-lg:h-full bg-cover bg-center bg-no-repeat w-full max-w-[1337px] h-[720px] mx-auto'>
+                <div className='lg:bg-tabThreeBgImg md:flex justify-between max-lg:bg-tabThreeSmImg max-lg:h-full bg-cover bg-center bg-no-repeat w-full max-w-[1280px] h-[720px] mx-auto'>
                     <div className='pt-[75px] ps-[79px] max-lg:p-12 max-md:p-8 max-sm:p-5'>
                         <h3 className='text-white font-bold lg:text-[80px] md:text-7xl text-6xl uppercase font-sohne leading-[87%]'>Project radar</h3>
                         <LogoIpsumIcon />
@@ -77,7 +76,7 @@ const PartnersGrowth = () => {
 
     return (
         <div className='lg:pt-[113px] md:pt-20 sm:pt-16 pt-12 pb-[60px]'>
-            <h3 className='px-5 sm:px-0 lg:text-[80px] md:text-7xl text-6xl font-sohne uppercase leading-[87%] text-center max-w-[500px] mx-auto'>The growth partner </h3>
+            <h3 className='px-5 sm:px-0 lg:text-[80px] md:text-7xl text-6xl font-sohne uppercase max-sm:leading-[52px] leading-[87%] text-center max-w-[500px] mx-auto'>The growth partner </h3>
             <p className='md:text-[30px] text-2xl font-maisonLight text-center pb-[3px]'>you’ve been looking for.</p>
             <p className='max-sm:px-8 sm:mt-[43px] pt-4 font-normal text-[15px] text-black leading-[20px] font-maisonRegular text-center'>Businesses trust Venveo to power grow.</p>
             <div className='tabs-parent mt-[105px] max-xl:mt-16 max-lg:mt-10 max-md:mt-8 relative z-20'>

@@ -6,7 +6,7 @@ const SatisfiedClients = () => {
     return (
         <div className="mt-[101px]  max-xl:mt-24 max-lg:mt-20 max-md:mt-10">
             <p className='md:text-[30px] text-2xl font-maisonLight font-light text-center max-sm:max-w-[234px] mx-auto leading-[100%] pb-2'>Driving digital revenue for over</p>
-            <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohne font-bold uppercase leading-[87%] text-center md:max-w-[516px] lg:max-w-[574px] max-w-[430px] max-[450px]:max-w-[286px] mx-auto'>1,400+ satisfied clients. <span> <img className='max-sm:max-w-[84px] max-[430px]:translate-y-[-55px] ' src="./assets/image/svg/small-red-line.svg" alt="red line" /></span></h3>
+            <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohne font-bold uppercase max-sm:leading-[52px] leading-[87%] text-center md:max-w-[516px] lg:max-w-[574px] max-w-[430px] max-[450px]:max-w-[286px] mx-auto'>1,400+ satisfied clients. <span> <img className='max-sm:max-w-[84px] max-[430px]:translate-y-[-55px] ' src="./assets/image/svg/small-red-line.svg" alt="red line" /></span></h3>
             <div className="flex flex-wrap justify-between max-xl:justify-center max-xl:gap-6 mt-16 max-xl:m-4 max-w-[1920px] mx-auto">
                 {CLIENTS_CARDS_LIST.map((obj, i) => (
                     <div

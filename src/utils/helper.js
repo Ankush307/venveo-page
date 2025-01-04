@@ -117,7 +117,7 @@ export const MARKETING_CARDS_LIST = [
 
 export const SWIPER_DATA = [
     {
-        image: "./assets/image/webp/slider-img1.webp",
+        image: "./assets/image/png/slider-img1.png",
         description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
         name: "Jon Vaughan",
         title: "REGIONAL VP-SE AT US LBM",
@@ -135,7 +135,7 @@ export const SWIPER_DATA = [
         title: "REGIONAL VP-SE AT US LBM",
     },
     {
-        image: "./assets/image/webp/slider-img1.webp",
+        image: "./assets/image/png/slider-img1.png",
         description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
         name: "Jon Vaughan",
         title: "REGIONAL VP-SE AT US LBM",

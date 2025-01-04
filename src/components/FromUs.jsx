@@ -6,9 +6,9 @@ const FromUs = () => {
     <div>
       <img className='sm:pt-3 pt-2' src="./assets/image/png/swiper-green-line.png" alt="green line" />
       <div className="container mx-auto max-w-[1320px] ">
-        <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohne font-bold md:leading-[70px] leading-[52px] lg:pt-[86px] pt-[50px] text-center uppercase'>Learn from us.</h3>
+        <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohne font-bold sm:leading-[70px] leading-[52px] lg:pt-[86px] pt-[50px] text-center uppercase'>Learn from us.</h3>
         <p className='text-[15px] font-maisonRegular font-normal leading-[20px] pt-[13px] mb-[33px] text-center'>Digital marketing resources from Venveo to help you grow.</p>
-        <button className='flex md:mb-[81px] mb-10 font-maisonMedium font-semibold items-center justify-center gap-[11px] max-w-[78px] mx-auto '>See All <img src="./assets/image/svg/next-btn.svg" alt="btn img" /> </button>
+        <button className='flex md:mb-[81px] mb-10 font-maisonMedium font-semibold items-center justify-center gap-[11px] max-w-[78px] mx-auto'>See All <img src="./assets/image/svg/next-btn.svg" alt="btn img" /> </button>
         <div className="relative w-full ">
           <img className="object-cover min-h-[565px] max-h-[750px]" src="./assets/image/png/from-us-img.png" alt="from us img" />
           <img className='absolute top-[-8%] right-[10%] max-md:hidden' src="./assets/image/png/made-for-brands.png" alt="made for brands" />

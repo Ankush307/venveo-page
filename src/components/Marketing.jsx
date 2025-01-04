@@ -6,7 +6,7 @@ const Marketing = () => {
     return (
         <div className="pt-[132px] pb-[129px] max-xl:py-28 max-lg:py-20 max-md:py-16 max-sm:py-10 relative md:px-0 px-3">
             <p className='md:text-[30px] text-2xl font-maisonLight font-light text-center pb-1'>Problems we solve.</p>
-            <h3 className='lg:text-[80px] md:text-7xl text-6xl font-sohne font-bold uppercase leading-[70px] text-center max-w-[500px] mx-auto'>Digital Marketing for today’s Business</h3>
+            <h3 className='lg:text-[80px] md:text-[72px] !text-[60px] font-sohne font-bold uppercase sm:!leading-[70px] !leading-[40px] text-center max-w-[500px] mx-auto'>Digital Marketing for today's Business</h3>
             <p className="font-normal text-[15px] font-maisonRegular text-center max-w-[700px] leading-[20px] pt-6 text-black mx-auto max-sm:max-w-[307px]">
                 We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners.
             </p>
